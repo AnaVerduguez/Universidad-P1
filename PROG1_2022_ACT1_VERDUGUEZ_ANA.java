@@ -1,25 +1,30 @@
 /* ************************************************************************************
-  Fecha: 24/04/22
-  Materia: Programación I
-  Autor: Ana Belen Verduguez
-  Ejercicio: Actividad 1
-  Versión: 1
-* ************************************************************************************/
- 
-/* ***********************************************************************************
-                            A N A L I S I S 
-/* ***********************************************************************************
- 
---------------------------------------------------------------------------------------   
-    ENTRADA      |               PROCESOS                       |   SALIDAS
---------------------------------------------------------------------------------------
- opcion          |  repo_final1= repo_prenda1 - stock_prenda1   |  repo_final1
- stock_prenda1   |  repo_final2= repo_prenda2 - stock_prenda2   |  repo_final2
- repo_prenda1    |  repo_final3= repo_prenda3 - stock_prenda3   |  repo_final3
- stock_prenda2   |                                              |  max_repo
- repo_prenda2    |                                              |  min_repo
- stock_prenda3   |                                              |
- repo_prenda3    |                                              |                                                   
+  Un emprendimiento de ropa de mujer necesita un programa que permita registrar su stock.
+Esto permitirá saber que prendas aún están disponibles para la venta al público y la
+cantidad de prendas que se debe de reponer.
+
+El emprendimiento cuenta con 3 prendas para su venta al público, cada una de ellas posee
+un código que nos permite saber de que tipo de prenda es:
+#1247 👗 POLLERAS
+#1248 👖JEANS
+#1249 🩳Shorts
+
+Debemos de tener en cuenta que el emprendimiento siempre se asegura de tener en stock
+ciertas cantidades para cada prenda en específico. Por ejemplo, hay temporadas que se
+necesita la totalidad de 20 shorts y en otras solamente de 15 shorts.
+Los datos que se necesitan ingresar por parte del usuario son:
+● Cantidad de stock actual de esa prenda.
+● Cantidad de stock necesario que debe tener esa prenda.
+
+Para llevar a cabo este análisis se debe de crear un menú de opciones. Dentro de él, el
+usuario podrá cargar los datos ingresados por teclado y obtener el informe final. El
+programa debe de finalizar cuando el usuario marque una de las opciones del menú.
+Cuando el programa finalice debemos mostrar por pantalla:
+● Cantidad que necesito reponer de la primera prenda.
+● Cantidad que necesito reponer de la segunda prenda.
+● Cantidad que necesito reponer de la tercera prenda.
+● Mayor cantidad de reposición.
+● Menor cantidad de reposición.
 --------------------------------------------------------------------------------------
 */
 
